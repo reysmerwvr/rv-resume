@@ -15,7 +15,7 @@ function Navigation() {
                 <span className="d-block d-lg-none">Reysmer Valle</span>
                 <span className="d-none d-lg-block">
                     <Image 
-                        src="images/profile.jpg"
+                        src="images/profile.jpeg"
                         alt="" 
                         className="img-fluid img-profile rounded-circle mx-auto mb-2" 
                     />

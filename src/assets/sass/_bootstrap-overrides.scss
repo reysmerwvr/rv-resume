@@ -14,3 +14,16 @@
       color: darken($primary, 15%);
     }
 }
+
+.navbar-dark  {
+  .navbar-nav {
+    .nav-link {
+      color: $light-green !important;
+      &:hover,
+      &:focus,
+      &:active {
+        color: $white !important;
+      }
+    }
+  }
+}
