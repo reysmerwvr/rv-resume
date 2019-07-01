@@ -9,7 +9,7 @@ function Navigation() {
             className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" 
             id="sideNav"
         >
-            <Nav.Link 
+            <AnchorLink 
                 className="navbar-brand js-scroll-trigger" 
                 href="#page-top"
             >
@@ -21,7 +21,7 @@ function Navigation() {
                         className="img-fluid img-profile rounded-circle mx-auto mb-2" 
                     />
                 </span>
-            </Nav.Link>
+            </AnchorLink>
             <Button 
                 className="navbar-toggler" 
                 type="button" 
