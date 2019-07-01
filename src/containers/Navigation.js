@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Image, Button } from 'react-bootstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../assets/sass/resume.scss';
 
 function Navigation() {
@@ -38,22 +39,22 @@ function Navigation() {
             >
                 <Nav className="navbar-nav" as="ul">
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#about">About</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#about">About</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#experience">Experience</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#experience">Experience</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#education">Education</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#education">Education</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#skills">Skills</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#skills">Skills</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#interests">Interests</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#interests">Interests</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <Nav.Link className="nav-link js-scroll-trigger" href="#awards">Awards</Nav.Link>
+                        <AnchorLink className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
                     </Nav.Item>
                 </Nav>
             </div>
