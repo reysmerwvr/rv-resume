@@ -3,9 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function About() {
     return (
-        <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+        <section 
+            className="resume-section p-3 p-lg-5 d-flex align-items-center" 
+            id="about"
+        >
             <div className="w-100">
-                <h1 className="mb-0">Reysmer
+                <h1 className="mb-0 heading">Reysmer
                     <span className="text-primary">Valle</span>
                 </h1>
                 <div className="subheading mb-5">Bogotá, CO 111211 · (350) 819-4126 ·
