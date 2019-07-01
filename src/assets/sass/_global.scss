@@ -41,6 +41,13 @@ body {
     font-size: 1.15rem;
     font-weight: 400;
   }
+
+  .heading {
+    @media (max-width: 540px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   
   .subheading {
     text-transform: uppercase;
@@ -77,4 +84,4 @@ body {
         color: $primary;
       }
     }
-}
+  }

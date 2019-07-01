@@ -1,13 +1,16 @@
 import React from 'react';
-import { Nav, Image, Button } from 'react-bootstrap';
+import { Navbar, Nav, Image } from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../assets/sass/resume.scss';
 
 function Navigation() {
     return (
-        <Nav
-            className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" 
-            id="sideNav"
+        <Navbar 
+            bg="dark" 
+            expand="lg" 
+            className="bg-primary navbar-dark" 
+            fixed="top" 
+            id="sideNav" 
         >
             <AnchorLink 
                 className="navbar-brand js-scroll-trigger" 
@@ -22,43 +25,36 @@ function Navigation() {
                     />
                 </span>
             </AnchorLink>
-            <Button 
-                className="navbar-toggler" 
-                type="button" 
+            <Navbar.Toggle 
+                aria-controls="basic-navbar-nav"
                 data-toggle="collapse" 
-                data-target="#navbarSupportedContent" 
-                aria-controls="navbarSupportedContent" 
+                data-target="#basic-navbar-nav" 
                 aria-expanded="false" 
                 aria-label="Toggle navigation"
-            >
-                <span className="navbar-toggler-icon"></span>
-            </Button>
-            <div 
-                className="collapse navbar-collapse" 
-                id="navbarSupportedContent"
-            >
+            />
+            <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="navbar-nav" as="ul">
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#about">About</AnchorLink>
+                        <AnchorLink className="nav-link" href="#about">About</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#experience">Experience</AnchorLink>
+                        <AnchorLink className="nav-link" href="#experience">Experience</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#education">Education</AnchorLink>
+                        <AnchorLink className="nav-link" href="#education">Education</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#skills">Skills</AnchorLink>
+                        <AnchorLink className="nav-link" href="#skills">Skills</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#interests">Interests</AnchorLink>
+                        <AnchorLink className="nav-link" href="#interests">Interests</AnchorLink>
                     </Nav.Item>
                     <Nav.Item as="li" className="nav-item">
-                        <AnchorLink className="nav-link js-scroll-trigger" href="#awards">Awards</AnchorLink>
+                        <AnchorLink className="nav-link" href="#awards">Awards</AnchorLink>
                     </Nav.Item>
                 </Nav>
-            </div>
-        </Nav>
+            </Navbar.Collapse>    
+        </Navbar>
     );
 }
 
