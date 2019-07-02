@@ -11,12 +11,13 @@ function Experience() {
                 <h3 className="mb-0">Senior Full Stack Developer</h3>
                 <div className="subheading mb-3">Teravision Technologies</div>
                 <p>
-                    My job is to build APIs for mobile apps, perform automated unit testing, 
+                    My job is to Build APIs for mobile apps, perform automated unit testing, 
                     design and build production-quality relational databases, configuration, 
-                    and maintenance of development servers, design UI and layouts, payment integration (Stripe), 
-                    AWS integration (EC2, RDS, S3), automated deployments using Jenkins. 
-                    Examine client’s requirements and make estimates according to the task’s level. 
-                    Participate in stand up meetings and sessions with onshore/offshore developers and Technical Leaders.
+                    and maintenance of development servers, design and create UI components with React, 
+                    integration with AWS (EC2, RDS, S3), payment integration (Stripe, PayPal, In-App Purchases), 
+                    automated deployments using Jenkins, continuous development with Docker. 
+                    Examine the client's requirements and make estimates according to the task's level, 
+                    participate in stand up meetings and sessions with onshore/offshore developers and Technical Leaders.
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -30,7 +31,7 @@ function Experience() {
                 <div className="subheading mb-3">Ragzza Argentina</div>
                 <p>
                     I built a web site to manage sports competitions using AngularJS and Laravel Framework, 
-                    I performed automated unit tests and also I designed UI and layouts. 
+                    I performed automated unit tests and also I designed UI components and layouts. 
                     I had the opportunity to make payment integration with Web Pay. 
                     I had to participate in daily stand up meetings and sessions with offshore developers and Technical Leaders.
                 </p>
