@@ -10,29 +10,23 @@ import Interests from '../components/Interests';
 import Awards from '../components/Awards';
 
 function Content() {
-    return (
-        <Container 
-            fluid={true}
-            className="p-0"
-        >
-            <ScrollAnimation 
-                animateIn='wobble'
-                initiallyVisible={true}
-            >
-                <About />
-                <hr className="m-0" />
-                <Experience />
-                <hr className="m-0" />
-                <Education />
-                <hr className="m-0" />
-                <Skills />
-                <hr className="m-0" />
-                <Interests />
-                <hr className="m-0" />
-                <Awards />
-            </ScrollAnimation>
-        </Container>
-    )
+  return (
+    <Container fluid className="p-0">
+      <ScrollAnimation animateIn="wobble" initiallyVisible>
+        <About />
+        <hr className="m-0" />
+        <Experience />
+        <hr className="m-0" />
+        <Education />
+        <hr className="m-0" />
+        <Skills />
+        <hr className="m-0" />
+        <Interests />
+        <hr className="m-0" />
+        <Awards />
+      </ScrollAnimation>
+    </Container>
+  );
 }
 
 export default Content;
