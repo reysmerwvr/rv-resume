@@ -67,7 +67,7 @@
     "title": "Experience",
     "experiences": [
 			{
-        "position": "Node JS Developer",
+        "position": "NodeJS Developer",
         "company": "Belatrix Software",
         "description": "My job at Belatrix is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
         "date": "September 2019 - Present"
