@@ -1,119 +1,129 @@
 {
-    "about": {
-        "title": "About",
-        "firstName": "Reysmer",
-        "lastName": "Valle",
-        "address": "Bogotá, CO 111211",
-        "phoneNumber": "(350) 819-4126",
-        "email": "reysmerwvr@gmail.com",
-        "bio": "Full Stack Developer, aspiring iOS Developer. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of programming paradigms, software development methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
-        "social": {
-            "linkedin": "https://www.linkedin.com/in/reysmervalle",
-            "github": "https://github.com/reysmerwvr",
-            "twitter": "https://www.facebook.com/ValleReysmer",
-            "facebook": "https://twitter.com/ValleReysmer"
-        }
-    },
-    "awards": {
-        "title": "Awards & Courses",
-        "awards": [
-            "Culture scholarship - Orfeón Luis Caballero Mejías",
-            "Higher index of the specialty Systems Engineering",
-            "Best internship project in programming area",
-            "Best index of academic performance"
-        ],
-        "courses": [
-            "Modern React with Redux [2019 Update] (Udemy)",
-            "Design Patterns in Swift (Udemy)",
-            "Developing iOS 11 Apps with Swift (Stanford University)",
-            "English Course (CVA)",
-            "JAVA EE (Bellinsoft)",
-            "JAVA SE (Bellinsoft)",
-            "JavaScript: Understanding the Weird Parts (Udemy)",
-            "Learn and understand NodeJS (Udemy)",
-            "The Complete React Native and Redux Course (Udemy)"
-        ]
-    },
-    "education": {
-        "title": "Education",
-        "educations": [
-            {
-                "institute": "UCAB",
-                "degree": "Master of Computer Applications (MCA)",
-                "description": "Computer Science - Specialization: Information Systems",
-                "gpa": "Current GPA: 17/20",
-                "date": "March 2015 - Present"
-            },
-            {
-                "institute": "UNEXPO",
-                "degree": "BEng., System Engineering",
-                "description": "First class with distinction",
-                "gpa": "GPA: 7.31/9",
-                "date": "October 2008 - October 2014"
-            },
-            {
-                "institute": "Colegio Ave María",
-                "degree": "BSc., Bachelor of Science",
-                "description": "Specialization: Science",
-                "gpa": "GPA: 16/20",
-                "date": "September 2003 - July 2008"
-            }
-        ]
-    },
-    "experience": {
-        "title": "Experience",
-        "experiences": [
-            {
-                "position": "Senior Full Stack Developer",
-                "company": "Teravision Technologies",
-                "description": "My job is to Build APIs for mobile apps, perform automated unit testing, design and build production-quality relational databases, configuration, and maintenance of development servers, design and create UI components with React, integration with AWS (EC2, RDS, S3), payment integration (Stripe, PayPal, In-App Purchases), automated deployments using Jenkins, continuous development with Docker. Examine the client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers and Technical Leaders.",
-                "date": "September 2016 - Present"
-            },
-            {
-                "position": "Full Stack Freelance Developer",
-                "company": "Ragzza Argentina",
-                "description": "I built a web site to manage sports competitions using AngularJS and Laravel Framework, I performed automated unit tests and also I designed UI components and layouts. I had the opportunity to make payment integration with Web Pay. I had to participate in daily stand up meetings and sessions with offshore developers and Technical Leaders.",
-                "date": "August 2016 - February 2017"
-            },
-            {
-                "position": "Full Stack Developer",
-                "company": "Kentron",
-                "description": "I participated in many projects; I had to build web apps using Laravel Framework, Zend Framework, and NodeJS. I designed, built and maintained production quality databases (MySQL, PostgreSQL, SQL Server, Oracle, and MongoDB). I performed data large migrations with Pentaho Data Integration. I built web services using SOAP, XML, and WSDL. I had to participate in daily stand up meetings and sessions with clients, onshore developers and Technical Leaders.",
-                "date": "May 2015 - September 2016"
-            },
-            {
-                "position": "Full Stack Developer",
-                "company": "Biodonto",
-                "description": "I built a web system to manage medical resources orders. I used Yii Framework, jQuery, AJAX and JavaScript to make it. I had to build views, stored procedures, and triggers on MySQL related database. I had to participate in daily stand up meetings and sessions with onshore developers and Technical Leaders.",
-                "date": "August 2014 - April 2015"
-            }
-        ]
-    },
-    "skills": {
-        "title": "Skills",
-        "technicalSkills": [
-            "html5",
-            "css3",
-            "js-square",
-            "php",
-            "react",
-            "node-js",
-            "sass",
-            "less",
-            "gulp",
-            "grunt",
-            "npm",
-            "apple",
-            "app-store-ios",
-            "aws"
-        ],
-        "workflowSkills": [
-            "Mobile and Web Development",
-            "Design Patterns",
-            "Mobile-First, Responsive Design",
-            "Cross Browser Testing & Debugging",
-            "Cross Functional Teams",
-            "Agile Development & Scrum"
-        ]
+  "about": {
+    "title": "About",
+    "firstName": "Reysmer",
+    "lastName": "Valle",
+    "address": "Bogotá, CO 111211",
+    "phoneNumber": "(350) 819-4126",
+    "email": "reysmerwvr@gmail.com",
+    "bio": "Full Stack Developer, DevOps Engineer, aspiring iOS Developer. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of programming paradigms, software development methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/reysmervalle",
+      "github": "https://github.com/reysmerwvr",
+      "twitter": "https://www.facebook.com/ValleReysmer",
+      "facebook": "https://twitter.com/ValleReysmer"
     }
+  },
+  "awards": {
+    "title": "Awards & Courses",
+    "awards": [
+      "Culture scholarship - Orfeón Luis Caballero Mejías",
+      "Higher index of the specialty Systems Engineering",
+      "Best internship project in programming area",
+      "Best index of academic performance"
+    ],
+    "courses": [
+			"DevOps: Infrastructure Automation With Terraform (Udemy)",
+			"Docker and Kubernetes: The Complete Guide (Udemy)",
+			"RESTful Web Services with Node.js and Express",
+      "Modern React with Redux [2019 Update] (Udemy)",
+      "Design Patterns in Swift (Udemy)",
+      "Developing iOS 11 Apps with Swift (Stanford University)",
+      "English Course (CVA)",
+      "JAVA EE (Bellinsoft)",
+      "JAVA SE (Bellinsoft)",
+      "JavaScript: Understanding the Weird Parts (Udemy)",
+      "Learn and understand NodeJS (Udemy)",
+      "The Complete React Native and Redux Course (Udemy)"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "educations": [
+      {
+        "institute": "UCAB",
+        "degree": "Master of Computer Applications (MCA)",
+        "description": "Computer Science - Specialization: Information Systems",
+        "gpa": "Current GPA: 17/20",
+        "date": "March 2015 - Present"
+      },
+      {
+        "institute": "UNEXPO",
+        "degree": "BEng., System Engineering",
+        "description": "First class with distinction",
+        "gpa": "GPA: 7.31/9",
+        "date": "October 2008 - October 2014"
+      },
+      {
+        "institute": "Colegio Ave María",
+        "degree": "BSc., Bachelor of Science",
+        "description": "Specialization: Science",
+        "gpa": "GPA: 16/20",
+        "date": "September 2003 - July 2008"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": [
+			{
+        "position": "Node JS Developer",
+        "company": "Belatrix Software",
+        "description": "My job at Belatrix is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
+        "date": "September 2019 - Present"
+      },
+      {
+        "position": "Senior Full Stack Developer",
+        "company": "Teravision Technologies",
+        "description": "I built APIs for mobile apps, performed automated unit testing, designed and built production-quality relational databases, configuration, and maintenance of development servers, I designed and created UI components with React, I made integrations with AWS (EC2, RDS, S3), payment integrations (Stripe, PayPal, In-App Purchases), automated deployments using Jenkins, continuous development with Docker. Examine the client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers and Technical Leaders.",
+        "date": "September 2016 - August 2019"
+      },
+      {
+        "position": "Full Stack Freelance Developer",
+        "company": "Ragzza Argentina",
+        "description": "I built a web site to manage sports competitions using AngularJS and Laravel Framework, I performed automated unit tests and also I designed UI components and layouts. I had the opportunity to make payment integration with Web Pay. I had to participate in daily stand up meetings and sessions with offshore developers and Technical Leaders.",
+        "date": "August 2016 - February 2017"
+      },
+      {
+        "position": "Full Stack Developer",
+        "company": "Kentron",
+        "description": "I participated in many projects; I had to build web apps using Laravel Framework, Zend Framework, and NodeJS. I designed, built and maintained production quality databases (MySQL, PostgreSQL, SQL Server, Oracle, and MongoDB). I performed data large migrations with Pentaho Data Integration. I built web services using SOAP, XML, and WSDL. I had to participate in daily stand up meetings and sessions with clients, onshore developers and Technical Leaders.",
+        "date": "May 2015 - September 2016"
+      },
+      {
+        "position": "Full Stack Developer",
+        "company": "Biodonto",
+        "description": "I built a web system to manage medical resources orders. I used Yii Framework, jQuery, AJAX and JavaScript. I had to build views, stored procedures, and triggers on MySQL related database. I had to participate in daily stand up meetings and sessions with onshore developers and Technical Leaders.",
+        "date": "August 2014 - April 2015"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "technicalSkills": [
+      "html5",
+      "css3",
+      "js-square",
+      "php",
+      "react",
+      "node-js",
+      "sass",
+      "less",
+      "gulp",
+      "grunt",
+      "npm",
+      "apple",
+      "app-store-ios",
+      "aws"
+    ],
+    "workflowSkills": [
+      "Mobile and Web Development",
+			"Design Patterns",
+			"Development Operations",
+      "Mobile-First, Responsive Design",
+      "Cross Browser Testing & Debugging",
+      "Cross Functional Teams",
+      "Agile Development & Scrum"
+    ]
+  }
 }
