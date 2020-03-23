@@ -1,6 +1,6 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import data from '../data/data.json';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import data from "../data/data.json";
 
 function About() {
   const { about } = data;
@@ -15,25 +15,19 @@ function About() {
           <span className="text-primary">{about.lastName}</span>
         </h1>
         <div className="subheading mb-5">
-          {about.address}
-          {' '}
-            ·
-          {' '}
-          {about.phoneNumber}
-          {' '}
-            ·
+          {about.address} · {about.phoneNumber} ·
           <a href={`mailto:${about.email}`}>{about.email}</a>
         </div>
         <p className="lead mb-5">{about.bio}</p>
         <div className="social-icons">
-          {Object.keys(about.social).map((key) => (
+          {Object.keys(about.social).map(key => (
             <a
               key={key}
               href={about.social[key]}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={['fab', key]} />
+              <FontAwesomeIcon icon={["fab", key]} />
             </a>
           ))}
         </div>

@@ -6,12 +6,12 @@
     "address": "Bogotá, CO 111211",
     "phoneNumber": "(350) 819-4126",
     "email": "reysmerwvr@gmail.com",
-    "bio": "Full Stack Developer, DevOps Engineer, aspiring iOS Developer. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of programming paradigms, software development methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
+    "bio": "Full Stack Developer, DevOps Engineer, aspiring iOS Developer. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of design patterns, agile methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
     "social": {
       "linkedin": "https://www.linkedin.com/in/reysmervalle",
       "github": "https://github.com/reysmerwvr",
-      "twitter": "https://www.facebook.com/ValleReysmer",
-      "facebook": "https://twitter.com/ValleReysmer"
+      "twitter": "https://twitter.com/ValleReysmer",
+      "facebook": "https://www.facebook.com/ValleReysmer"
     }
   },
   "awards": {
@@ -23,6 +23,7 @@
       "Best index of academic performance"
     ],
     "courses": [
+      "Swift Fundamentals (Acámica)",
 			"DevOps: Infrastructure Automation With Terraform (Udemy)",
 			"Docker and Kubernetes: The Complete Guide (Udemy)",
 			"RESTful Web Services with Node.js and Express",
@@ -105,6 +106,8 @@
       "css3",
       "js-square",
       "php",
+      "python",
+      "java",
       "react",
       "node-js",
       "sass",
@@ -114,12 +117,44 @@
       "npm",
       "apple",
       "app-store-ios",
-      "aws"
+      "aws",
+      "jenkins",
+      "docker",
+      "stripe",
+      "paypal",
+      "linux",
+      "centos",
+      "ubuntu",
+      "gitlab",
+      "github",
+      "gitkraken",
+      "bitbucket",
+      "jira",
+      "slack"
+    ],
+    "extraSkills": [
+      "Redux",
+      "Redux-Saga",
+      "Redux-Thunk",
+      "React Hooks",
+      "React Context",
+      "Storybook",
+      "Express.js",
+      "AdonisJs",
+      "Serverless",
+      "Kubernetes",
+      "Puppet",
+      "Rundeck",
+      "Parallels",
+      "Groovy",
+      "Pipelines",
+      "Virtualization"
     ],
     "workflowSkills": [
       "Mobile and Web Development",
 			"Design Patterns",
-			"Development Operations",
+      "Development Operations",
+      "Continuous Integration / Continuous Delivery",
       "Mobile-First, Responsive Design",
       "Cross Browser Testing & Debugging",
       "Cross Functional Teams",
