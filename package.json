@@ -1,15 +1,15 @@
 {
-  "title": "Reysmer Valle's Portfolio",
-  "name": "reysmer-portfolio",
+  "title": "Reysmer Valle's Resume",
+  "name": "reysmer-resume",
   "version": "0.1.0",
   "private": true,
-  "description": "Reysmer Valle Personal Portfolio.",
+  "description": "Reysmer Valle Personal Resume.",
   "keywords": [
     "css",
     "sass",
     "html",
     "responsive",
-    "portfolio",
+    "resume",
     "template"
   ],
   "license": "MIT",
@@ -19,9 +19,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reysmerwvr/personal-portfolio.git"
+    "url": "https://github.com/reysmerwvr/rv-resume.git"
   },
-  "homepage": "https://reysmerwvr.github.io/reysmer-valle",
+  "homepage": "https://reysmerwvr.github.io/rv-resume",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
