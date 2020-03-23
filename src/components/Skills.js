@@ -1,7 +1,7 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import data from '../data/data.json';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck, faDotCircle } from "@fortawesome/free-solid-svg-icons";
+import data from "../data/data.json";
 
 function Skills() {
   const { skills } = data;
@@ -14,17 +14,26 @@ function Skills() {
         <h2 className="mb-5">{skills.title}</h2>
         <div className="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul className="list-inline dev-icons">
-          {skills.technicalSkills.map((skill, index) => (
-            <li key={index} className="list-inline-item">
-              <FontAwesomeIcon icon={['fab', skill]} />
+          {skills.technicalSkills.map(skill => (
+            <li key={skill} className="list-inline-item">
+              <FontAwesomeIcon icon={["fab", skill]} className="fa-xs" />
+            </li>
+          ))}
+        </ul>
+        <div className="subheading mb-3">Other Skills</div>
+        <ul className="fa-ul mb-3">
+          {skills.extraSkills.map(skill => (
+            <li key={skill} className="fa-list">
+              <FontAwesomeIcon icon={faDotCircle} className="fa-li fa-xs" />
+              {skill}
             </li>
           ))}
         </ul>
         <div className="subheading mb-3">Workflow</div>
         <ul className="fa-ul mb-0">
-          {skills.workflowSkills.map((skill, index) => (
-            <li key={index}>
-              <FontAwesomeIcon icon={faCheck} className="fa-li" />
+          {skills.workflowSkills.map(skill => (
+            <li key={skill} className="fa-list">
+              <FontAwesomeIcon icon={faCheck} className="fa-li fa-xs" />
               {skill}
             </li>
           ))}

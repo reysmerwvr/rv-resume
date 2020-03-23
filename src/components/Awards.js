@@ -1,7 +1,7 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrophy, faCertificate } from '@fortawesome/free-solid-svg-icons';
-import data from '../data/data.json';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrophy, faCertificate } from "@fortawesome/free-solid-svg-icons";
+import data from "../data/data.json";
 
 function Awards() {
   const { awards } = data;

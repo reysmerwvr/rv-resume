@@ -5,7 +5,6 @@ import Main from './hoc/Main';
 import Content from './containers/Content';
 import Navigation from './containers/Navigation';
 
-
 function App() {
   library.add(fab);
   return (

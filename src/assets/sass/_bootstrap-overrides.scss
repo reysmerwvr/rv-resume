@@ -1,28 +1,28 @@
 .bg-primary {
-    background-color: $primary !important;
-  }
-  
-  .text-primary {
-    color: $primary !important;
-  }
-  
-  a {
-    color: $primary;
-    &:hover,
-    &:focus,
-    &:active {
-      color: darken($primary, 15%);
-    }
+  background-color: $primary !important;
 }
 
-.navbar-dark  {
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.navbar-dark {
   .navbar-nav {
     .nav-link {
-      color: $light-green !important;
+      color: $white !important;
       &:hover,
       &:focus,
       &:active {
-        color: $white !important;
+        color: $light-green !important;
       }
     }
   }
