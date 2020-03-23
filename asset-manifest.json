@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/reysmer-valle/static/css/main.03746c10.chunk.css",
-    "main.js": "/reysmer-valle/static/js/main.f1b8acae.chunk.js",
-    "main.js.map": "/reysmer-valle/static/js/main.f1b8acae.chunk.js.map",
-    "runtime-main.js": "/reysmer-valle/static/js/runtime-main.822d5f34.js",
-    "runtime-main.js.map": "/reysmer-valle/static/js/runtime-main.822d5f34.js.map",
-    "static/css/2.d9ee7e2f.chunk.css": "/reysmer-valle/static/css/2.d9ee7e2f.chunk.css",
-    "static/js/2.16e1865f.chunk.js": "/reysmer-valle/static/js/2.16e1865f.chunk.js",
-    "static/js/2.16e1865f.chunk.js.map": "/reysmer-valle/static/js/2.16e1865f.chunk.js.map",
-    "index.html": "/reysmer-valle/index.html",
-    "precache-manifest.b87d05f79391496a45af353a49da0bd7.js": "/reysmer-valle/precache-manifest.b87d05f79391496a45af353a49da0bd7.js",
-    "service-worker.js": "/reysmer-valle/service-worker.js",
-    "static/css/2.d9ee7e2f.chunk.css.map": "/reysmer-valle/static/css/2.d9ee7e2f.chunk.css.map",
-    "static/css/main.03746c10.chunk.css.map": "/reysmer-valle/static/css/main.03746c10.chunk.css.map",
-    "static/js/2.16e1865f.chunk.js.LICENSE.txt": "/reysmer-valle/static/js/2.16e1865f.chunk.js.LICENSE.txt"
+    "main.css": "/rv-resume/static/css/main.03746c10.chunk.css",
+    "main.js": "/rv-resume/static/js/main.78c2e136.chunk.js",
+    "main.js.map": "/rv-resume/static/js/main.78c2e136.chunk.js.map",
+    "runtime-main.js": "/rv-resume/static/js/runtime-main.7fbb455c.js",
+    "runtime-main.js.map": "/rv-resume/static/js/runtime-main.7fbb455c.js.map",
+    "static/css/2.d9ee7e2f.chunk.css": "/rv-resume/static/css/2.d9ee7e2f.chunk.css",
+    "static/js/2.2f9ffc41.chunk.js": "/rv-resume/static/js/2.2f9ffc41.chunk.js",
+    "static/js/2.2f9ffc41.chunk.js.map": "/rv-resume/static/js/2.2f9ffc41.chunk.js.map",
+    "index.html": "/rv-resume/index.html",
+    "precache-manifest.0bdc027c05daa6881f57afce1799ecec.js": "/rv-resume/precache-manifest.0bdc027c05daa6881f57afce1799ecec.js",
+    "service-worker.js": "/rv-resume/service-worker.js",
+    "static/css/2.d9ee7e2f.chunk.css.map": "/rv-resume/static/css/2.d9ee7e2f.chunk.css.map",
+    "static/css/main.03746c10.chunk.css.map": "/rv-resume/static/css/main.03746c10.chunk.css.map",
+    "static/js/2.2f9ffc41.chunk.js.LICENSE.txt": "/rv-resume/static/js/2.2f9ffc41.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.822d5f34.js",
+    "static/js/runtime-main.7fbb455c.js",
     "static/css/2.d9ee7e2f.chunk.css",
-    "static/js/2.16e1865f.chunk.js",
+    "static/js/2.2f9ffc41.chunk.js",
     "static/css/main.03746c10.chunk.css",
-    "static/js/main.f1b8acae.chunk.js"
+    "static/js/main.78c2e136.chunk.js"
   ]
 }
