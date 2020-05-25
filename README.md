@@ -17,7 +17,7 @@ Download zip file and extract it [latest release](https://github.com/reysmerwvr/
 
 React Personal Resume uses a number of open source projects to work properly:
 
-- [React] - React
+- [React] - A JavaScript library for building user interfaces
 - [Start Bootstrap - Resume] - startbootstrap-resume (Base Template)
 
 Install the dependencies and start the server.
