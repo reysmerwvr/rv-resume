@@ -1,17 +1,22 @@
 # React Personal Resume
 
-React Personal Resume
+> Personal Resume with React
 
-## Requirements
+![Status][status-image]
+![License][license-image]
+![React][react-image]
+![Release][release-image]
+
+## ❗️ Requirements
 
 - React >= 16.12.0
 - npm >= 6.13.4
 
-## Version
+## ⬇️ Version
 
 1.0.0
 
-## Installation
+## 🛠 Installation
 
 Download zip file and extract it [latest release](https://github.com/reysmerwvr/rv-resume). Or clone the repository and cd into it.
 
@@ -27,25 +32,36 @@ cd rv-resume
 npm install
 ```
 
-## Running with NPM
+## 🚀 Running with NPM
 
 Run the following command to start the HTTP Server.
 
 ```sh
+cd rv-resume
+# Update src/data/data.json Enter your configuration here.
 npm start # Run React App
 ```
 
-## Preview
+## 👁 Preview
 
-![](public/preview.png)
+![preview](public/preview.png)
 
-### Todos
+## 📱 Meta
 
-- Write tests
-- Add code comments
+Reysmer Valle – [@ReysmerWVR]
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does 
+### 📝 Todos
+
+- [ ] Write tests
+- [ ] Add code comments
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does
 its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [React]: <https://reactjs.org//>
+   [@ReysmerWVR]: <http://twitter.com/ReysmerWVR>
    [Start Bootstrap - Resume]: <https://github.com/BlackrockDigital/startbootstrap-resume>
+   [status-image]: <https://img.shields.io/badge/status-production-green>
+   [license-image]: <https://img.shields.io/badge/License-MIT-blue.svg>
+   [react-image]: <https://img.shields.io/badge/react-16.12.0-blue>
+   [release-image]: <https://img.shields.io/badge/release-1.0.0-orange>
