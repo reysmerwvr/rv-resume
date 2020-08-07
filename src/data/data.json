@@ -6,7 +6,7 @@
     "address": "Bogotá, CO 111211",
     "phoneNumber": "(350) 819-4126",
     "email": "reysmerwvr@gmail.com",
-    "bio": "Full Stack Developer, DevOps Engineer, aspiring iOS Developer. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of design patterns, agile methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
+    "bio": "Computer Engineer - Full Stack Developer | DevOps Engineer | Aspiring iOS Developer 💻📱. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of design patterns, agile methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
     "social": {
       "linkedin": "https://www.linkedin.com/in/reysmervalle",
       "github": "https://github.com/reysmerwvr",
@@ -23,6 +23,9 @@
       "Best index of academic performance"
     ],
     "courses": [
+      "JavaScript Bible - JavaScript Bootcamp 2020 (Udemy)",
+      "Curso Maestro de Python 3: Aprende Desde Cero (Udemy)",
+      "AWS Well-Architected (AWS Training)",
       "Swift Fundamentals (Acámica)",
 			"DevOps: Infrastructure Automation With Terraform (Udemy)",
 			"Docker and Kubernetes: The Complete Guide (Udemy)",
@@ -67,11 +70,17 @@
   "experience": {
     "title": "Experience",
     "experiences": [
+      {
+        "position": "NodeJS Developer - Release Engineer",
+        "company": "Globant",
+        "description": "My job at Globant is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
+        "date": "August 2020 - Present"
+      },
 			{
-        "position": "NodeJS Developer",
+        "position": "NodeJS Developer - Release Engineer",
         "company": "Belatrix Software",
         "description": "My job at Belatrix is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
-        "date": "September 2019 - Present"
+        "date": "September 2019 - August 2020"
       },
       {
         "position": "Senior Full Stack Developer",
