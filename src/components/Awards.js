@@ -1,26 +1,29 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrophy, faCertificate } from "@fortawesome/free-solid-svg-icons";
-import data from "../data/data.json";
+import React from 'react'
+import uuid from 'react-uuid'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrophy, faCertificate } from '@fortawesome/free-solid-svg-icons'
+import data from '../data/data.json'
 
 function Awards() {
-  const { awards } = data;
+  const {
+    awards: { title, awards, courses },
+  } = data
   return (
     <section
       className="resume-section p-3 p-lg-5 d-flex align-items-center"
       id="awards"
     >
       <div className="w-100">
-        <h2 className="mb-5">{awards.title}</h2>
+        <h2 className="mb-5">{title}</h2>
         <ul className="fa-ul mb-0">
-          {awards.awards.map((award, index) => (
-            <li key={index}>
+          {awards.map((award) => (
+            <li key={uuid()}>
               <FontAwesomeIcon icon={faTrophy} className="fa-li text-warning" />
               {award}
             </li>
           ))}
-          {awards.courses.map((course, index) => (
-            <li key={index}>
+          {courses.map((course) => (
+            <li key={uuid()}>
               <FontAwesomeIcon
                 icon={faCertificate}
                 className="fa-li text-warning"
@@ -31,7 +34,7 @@ function Awards() {
         </ul>
       </div>
     </section>
-  );
+  )
 }
 
-export default Awards;
+export default Awards

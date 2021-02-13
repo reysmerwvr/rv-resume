@@ -1,8 +1,9 @@
-import React from "react";
-import data from "../data/data.json";
+import React from 'react'
+import uuid from 'react-uuid'
+import data from '../data/data.json'
 
 function Experience() {
-  const { experience } = data;
+  const { experience: { experiences } } = data
   return (
     <section
       className="resume-section p-3 p-lg-5 d-flex justify-content-center"
@@ -10,9 +11,9 @@ function Experience() {
     >
       <div className="w-100">
         <h2 className="mb-5">Experience</h2>
-        {experience.experiences.map((experience, index) => (
+        {experiences.map((experience) => (
           <div
-            key={index}
+            key={uuid()}
             className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div className="resume-content">
@@ -27,7 +28,7 @@ function Experience() {
         ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Experience;
+export default Experience

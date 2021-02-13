@@ -1,13 +1,13 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
-import Container from "react-bootstrap/Container";
-import About from "../components/About";
-import Experience from "../components/Experience";
-import Education from "../components/Education";
-import Skills from "../components/Skills";
-import Interests from "../components/Interests";
-import Awards from "../components/Awards";
+import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
+import Container from 'react-bootstrap/Container'
+import About from '../components/About'
+import Experience from '../components/Experience'
+import Education from '../components/Education'
+import Skills from '../components/Skills'
+import Interests from '../components/Interests'
+import Awards from '../components/Awards'
 
 function Content() {
   return (
@@ -26,7 +26,7 @@ function Content() {
         <Awards />
       </ScrollAnimation>
     </Container>
-  );
+  )
 }
 
-export default Content;
+export default Content

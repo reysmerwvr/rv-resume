@@ -1,5 +1,11 @@
-import React from "react";
+import React from 'react'
 
-const main = props => <div> {props.children} </div>;
+const main = (props) => (
+  <div>
+    {' '}
+    {props.children}
+    {' '}
+  </div>
+)
 
-export default main;
+export default main

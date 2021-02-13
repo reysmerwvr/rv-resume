@@ -13,7 +13,7 @@
     "template"
   ],
   "license": "MIT",
-  "author": "Reysmer",
+  "author": "Reysmer Valle",
   "contributors": [
     "Reysmer Valle"
   ],
@@ -35,9 +35,10 @@
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animate-on-scroll": "^2.1.5",
-    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^4.0.2",
+    "react-uuid": "^1.0.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -62,5 +63,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

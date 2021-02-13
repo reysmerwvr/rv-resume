@@ -1,18 +1,21 @@
-import React from "react";
-import data from "../data/data.json";
+import React from 'react'
+import uuid from 'react-uuid'
+import data from '../data/data.json'
 
 function Education() {
-  const { education } = data;
+  const {
+    education: { educations, title },
+  } = data
   return (
     <section
       className="resume-section p-3 p-lg-5 d-flex align-items-center"
       id="education"
     >
       <div className="w-100">
-        <h2 className="mb-5">{education.title}</h2>
-        {education.educations.map((education, index) => (
+        <h2 className="mb-5">{title}</h2>
+        {educations.map((education) => (
           <div
-            key={index}
+            key={uuid()}
             className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div className="resume-content">
@@ -28,7 +31,7 @@ function Education() {
         ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Education;
+export default Education

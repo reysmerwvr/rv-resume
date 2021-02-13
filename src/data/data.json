@@ -23,6 +23,9 @@
       "Best index of academic performance"
     ],
     "courses": [
+      "Flutter: Tu guía completa de desarrollo para IOS y Android (Udemy)",
+      "Curso de Accesibilidad Web (Platzi)",
+      "Javascript for React (LeonidasEsteban)",
       "JavaScript Bible - JavaScript Bootcamp 2020 (Udemy)",
       "Curso Maestro de Python 3: Aprende Desde Cero (Udemy)",
       "AWS Well-Architected (AWS Training)",
@@ -48,8 +51,8 @@
         "institute": "UCAB",
         "degree": "Master of Computer Applications (MCA)",
         "description": "Computer Science - Specialization: Information Systems",
-        "gpa": "Current GPA: 17/20",
-        "date": "March 2015 - Present"
+        "gpa": "GPA: 17/20",
+        "date": "March 2015 - 2018"
       },
       {
         "institute": "UNEXPO",
@@ -71,21 +74,27 @@
     "title": "Experience",
     "experiences": [
       {
-        "position": "NodeJS Developer - Release Engineer",
-        "company": "Globant",
-        "description": "My job at Globant is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
-        "date": "August 2020 - Present"
-      },
-			{
-        "position": "NodeJS Developer - Release Engineer",
-        "company": "Belatrix Software",
-        "description": "My job at Belatrix is about build scalable apps in Javascript Stack, build NodeJS applications with Serverless, perform automated unit testing with Mocha and Jest, design and build production-quality NoSQL and relational databases, design and create UI components with React, integration with AWS (EC2, Lambda, RDS, S3), continuous integration and delivery using Jenkins, continuous development with Docker and Kubernetes.",
-        "date": "September 2019 - August 2020"
+        "position": "Sr. Frontend Engineer",
+        "company": "Mercadolibre",
+        "description": "My role at Meli is to design, create and build UI components using React, Typescript, and NodeJS under the server-side rendering technique, monitor front-end applications using New Relic, Datadog, and Kibana, mentor less experienced developers, participate in brown bag sessions to share knowledge among team members, review PRs of my own team and other squads. Examine product requirements and estimate according to the task level, participate in meetings and stand-up sessions with developers, technical leaders, and project managers.",
+        "date": "October 2020 - Present"
       },
       {
-        "position": "Senior Full Stack Developer",
+        "position": "Sr. NodeJS Developer - DevOps Engineer",
+        "company": "Globant",
+        "description": "At Globant I worked in a mixed role as NodeJS Developer and DevOps Engineer. I participated in Infra 2.0 Automation and Massive iOS Concurrent Builds Automation Projects. I built APIs using serverless and lambda functions, performed automated unit testing, designed and built production-quality key-value storage, configuration, and maintenance of stage servers, CI/CD using Jenkins, Parallels, Puppet, Consul, Packer, MS Teams Notifications, Docker, Kubernetes. Examine client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers, technical leaders, and project managers.",
+        "date": "September 2019 - September 2020"
+      },
+			{
+        "position": "Sr. NodeJS Developer - DevOps Engineer",
+        "company": "Belatrix Software",
+        "description": "At Belatrix I worked in a mixed role as NodeJS Developer and DevOps Engineer. I participated in Infra 2.0 Automation and Massive iOS Concurrent Builds Automation Projects. I built APIs using serverless and lambda functions, performed automated unit testing, designed and built production-quality key-value storage, configuration, and maintenance of stage servers, CI/CD using Jenkins, Parallels, Puppet, Consul, Packer, MS Teams Notifications, Docker, Kubernetes. Examine client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers, technical leaders, and project managers.",
+        "date": "September 2019 - September 2020"
+      },
+      {
+        "position": "Sr. Full Stack Developer",
         "company": "Teravision Technologies",
-        "description": "I built APIs for mobile apps, performed automated unit testing, designed and built production-quality relational databases, configuration, and maintenance of development servers, I designed and created UI components with React, I made integrations with AWS (EC2, RDS, S3), payment integrations (Stripe, PayPal, In-App Purchases), automated deployments using Jenkins, continuous development with Docker. Examine the client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers and Technical Leaders.",
+        "description": "At Teravision, I worked on many projects listed below in the project section. I built APIs for mobile apps, performed automated unit testing, designed and built production-quality relational databases, configuration, and maintenance of development servers, I designed and created UI components with React, I worked with AWS(EC2, RDS, S3, EKS, EBS), I did multiple payment integrations (Stripe, PayPal, In-App Purchases), I used Jenkins and Docker as CI/CD tools. Examine client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers, technical leaders, and project managers.",
         "date": "September 2016 - August 2019"
       },
       {
@@ -97,7 +106,7 @@
       {
         "position": "Full Stack Developer",
         "company": "Kentron",
-        "description": "I participated in many projects; I had to build web apps using Laravel Framework, Zend Framework, and NodeJS. I designed, built and maintained production quality databases (MySQL, PostgreSQL, SQL Server, Oracle, and MongoDB). I performed data large migrations with Pentaho Data Integration. I built web services using SOAP, XML, and WSDL. I had to participate in daily stand up meetings and sessions with clients, onshore developers and Technical Leaders.",
+        "description": "At Kentron I participated in many projects; I had to build web apps using Laravel Framework, Zend Framework, and NodeJS. I designed, built, and maintained production quality databases (MySQL, PostgreSQL, SQL Server, Oracle, and MongoDB).  I performed data large migrations with Pentaho Data Integration. I built web services using SOAP, XML, and WSDL. I had to participate in daily stand up meetings and sessions with clients, onshore developers, and technical leaders.",
         "date": "May 2015 - September 2016"
       },
       {
@@ -147,6 +156,7 @@
       "Redux-Thunk",
       "React Hooks",
       "React Context",
+      "Sever Side Rendering",
       "Storybook",
       "Express.js",
       "AdonisJs",
