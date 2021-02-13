@@ -1,27 +1,26 @@
+/* eslint-disable quote-props */
 module.exports = {
   env: {
     browser: true,
-    es6: true,
+    es2021: true,
+    jest: true,
   },
   extends: [
+    'plugin:react/recommended',
     'airbnb',
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2018,
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   plugins: [
     'react',
   ],
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/jsx-curly-spacing": [2, {"when": "never", "allowMultiline": false}]
+    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+    'semi': [2, 'never'],
   },
 };

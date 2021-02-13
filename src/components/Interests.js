@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Interests() {
   return (
@@ -20,7 +20,7 @@ function Interests() {
         </p>
       </div>
     </section>
-  );
+  )
 }
 
-export default Interests;
+export default Interests
