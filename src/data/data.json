@@ -3,8 +3,8 @@
     "title": "About",
     "firstName": "Reysmer",
     "lastName": "Valle",
-    "address": "Bogotá, CO 111211",
-    "phoneNumber": "(350) 819-4126",
+    "address": "Madrid, Spain",
+    "phoneNumber": "+34 662 004 296",
     "email": "reysmerwvr@gmail.com",
     "bio": "Computer Engineer - Full Stack Developer | DevOps Engineer | Aspiring iOS Developer 💻📱. Dynamic and enthusiastic with experience in systems development and troubleshooting. Extensive knowledge of design patterns, agile methodologies, and programming languages. Ability to resolve problems in complex and critical projects on time",
     "social": {
@@ -23,6 +23,7 @@
       "Best index of academic performance"
     ],
     "courses": [
+      "Hacking with Swift (Paul Hudson)",
       "Flutter: Tu guía completa de desarrollo para IOS y Android (Udemy)",
       "Curso de Accesibilidad Web (Platzi)",
       "Javascript for React (LeonidasEsteban)",
@@ -74,10 +75,16 @@
     "title": "Experience",
     "experiences": [
       {
+        "position": "Sr. Frontend Consultant",
+        "company": "Ditech",
+        "description": "My role at Ditech is to design, create and build UI components using React, Typescript, and NodeJS using server-side rendering, mentor less experienced developers, participate in brown bag sessions to share knowledge among team members, review PRs of my own team and other squads. Examine product requirements and estimate according to the task level, participate in meetings and stand-up sessions with developers, technical leaders, and project managers.",
+        "date": "May 2021 - Present"
+      },
+      {
         "position": "Sr. Frontend Engineer",
         "company": "Mercadolibre",
-        "description": "My role at Meli is to design, create and build UI components using React, Typescript, and NodeJS under the server-side rendering technique, monitor front-end applications using New Relic, Datadog, and Kibana, mentor less experienced developers, participate in brown bag sessions to share knowledge among team members, review PRs of my own team and other squads. Examine product requirements and estimate according to the task level, participate in meetings and stand-up sessions with developers, technical leaders, and project managers.",
-        "date": "October 2020 - Present"
+        "description": "My role at Meli is to design, create and build UI components using React, Typescript, and NodeJS using server-side rendering, monitor front-end applications using New Relic, Datadog, and Kibana, mentor less experienced developers, participate in brown bag sessions to share knowledge among team members, review PRs of my own team and other squads. Examine product requirements and estimate according to the task level, participate in meetings and stand-up sessions with developers, technical leaders, and project managers.",
+        "date": "October 2020 - June 2021"
       },
       {
         "position": "Sr. NodeJS Developer - DevOps Engineer",
@@ -167,7 +174,10 @@
       "Parallels",
       "Groovy",
       "Pipelines",
-      "Virtualization"
+      "Virtualization",
+      "New Relic",
+      "Kibana",
+      "Datadog"
     ],
     "workflowSkills": [
       "Mobile and Web Development",
