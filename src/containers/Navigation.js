@@ -3,7 +3,7 @@ import { Navbar, Nav, Image } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import '../assets/sass/resume.scss'
-import { author } from '../../package.json'
+import packageJson from '../../package.json'
 
 function Navigation() {
   return (
@@ -15,7 +15,7 @@ function Navigation() {
       id="sideNav"
     >
       <AnchorLink className="navbar-brand js-scroll-trigger" href="#page-top">
-        <span className="d-block d-lg-none">{author}</span>
+        <span className="d-block d-lg-none">{packageJson.author}</span>
         <span className="d-none d-lg-block">
           <Image
             src="https://avatars1.githubusercontent.com/u/9899860?s=400&v=4"
