@@ -1,12 +1,12 @@
-import React from 'react'
+import * as React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import data from '../data/data.json'
 
 function About() {
   const {
-    about: {
-      firstName, lastName, address, phoneNumber, email, bio, social,
-    },
+    about: { firstName, lastName, address, email, bio, social },
   } = data
   return (
     <section
@@ -19,13 +19,7 @@ function About() {
           <span className="text-primary">{lastName}</span>
         </h1>
         <div className="subheading mb-5">
-          {address}
-          {' '}
-          ·
-          {phoneNumber}
-          {' '}
-          ·
-          <a href={`mailto:${email}`}>{email}</a>
+          {address} · <a href={`mailto:${email}`}>{email}</a>
         </div>
         <p className="lead mb-5">{bio}</p>
         <div className="social-icons">

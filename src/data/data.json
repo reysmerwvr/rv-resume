@@ -31,9 +31,9 @@
       "Curso Maestro de Python 3: Aprende Desde Cero (Udemy)",
       "AWS Well-Architected (AWS Training)",
       "Swift Fundamentals (Acámica)",
-			"DevOps: Infrastructure Automation With Terraform (Udemy)",
-			"Docker and Kubernetes: The Complete Guide (Udemy)",
-			"RESTful Web Services with Node.js and Express",
+      "DevOps: Infrastructure Automation With Terraform (Udemy)",
+      "Docker and Kubernetes: The Complete Guide (Udemy)",
+      "RESTful Web Services with Node.js and Express",
       "Modern React with Redux [2019 Update] (Udemy)",
       "Design Patterns in Swift (Udemy)",
       "Developing iOS 11 Apps with Swift (Stanford University)",
@@ -92,7 +92,7 @@
         "description": "At Globant I worked in a mixed role as NodeJS Developer and DevOps Engineer. I participated in Infra 2.0 Automation and Massive iOS Concurrent Builds Automation Projects. I built APIs using serverless and lambda functions, performed automated unit testing, designed and built production-quality key-value storage, configuration, and maintenance of stage servers, CI/CD using Jenkins, Parallels, Puppet, Consul, Packer, MS Teams Notifications, Docker, Kubernetes. Examine client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers, technical leaders, and project managers.",
         "date": "September 2019 - September 2020"
       },
-			{
+      {
         "position": "Sr. NodeJS Developer - DevOps Engineer",
         "company": "Belatrix Software",
         "description": "At Belatrix I worked in a mixed role as NodeJS Developer and DevOps Engineer. I participated in Infra 2.0 Automation and Massive iOS Concurrent Builds Automation Projects. I built APIs using serverless and lambda functions, performed automated unit testing, designed and built production-quality key-value storage, configuration, and maintenance of stage servers, CI/CD using Jenkins, Parallels, Puppet, Consul, Packer, MS Teams Notifications, Docker, Kubernetes. Examine client's requirements and make estimates according to the task's level, participate in stand up meetings and sessions with onshore/offshore developers, technical leaders, and project managers.",
@@ -181,7 +181,7 @@
     ],
     "workflowSkills": [
       "Mobile and Web Development",
-			"Design Patterns",
+      "Design Patterns",
       "Development Operations",
       "Continuous Integration / Continuous Delivery",
       "Mobile-First, Responsive Design",

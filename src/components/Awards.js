@@ -1,7 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 import uuid from 'react-uuid'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy, faCertificate } from '@fortawesome/free-solid-svg-icons'
+
 import data from '../data/data.json'
 
 function Awards() {

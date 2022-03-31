@@ -1,5 +1,6 @@
-import React from 'react'
+import * as React from 'react'
 import uuid from 'react-uuid'
+
 import data from '../data/data.json'
 
 function Education() {
