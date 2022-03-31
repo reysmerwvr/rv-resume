@@ -1,13 +1,13 @@
-import React from 'react'
+import * as React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faDotCircle } from '@fortawesome/free-solid-svg-icons'
+
 import data from '../data/data.json'
 
 function Skills() {
   const {
-    skills: {
-      title, technicalSkills, extraSkills, workflowSkills,
-    },
+    skills: { title, technicalSkills, extraSkills, workflowSkills },
   } = data
   return (
     <section

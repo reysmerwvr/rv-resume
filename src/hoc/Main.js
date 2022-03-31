@@ -1,11 +1,5 @@
-import React from 'react'
+import * as React from 'react'
 
-const main = (props) => (
-  <div>
-    {' '}
-    {props.children}
-    {' '}
-  </div>
-)
+const Main = ({ children }) => <>{children}</>
 
-export default main
+export default Main

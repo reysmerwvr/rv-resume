@@ -1,6 +1,7 @@
-import React from 'react'
+import * as React from 'react'
 import { Navbar, Nav, Image } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import '../assets/sass/resume.scss'
 import { author } from '../../package.json'
 

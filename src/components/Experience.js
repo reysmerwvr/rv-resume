@@ -1,9 +1,12 @@
-import React from 'react'
+import * as React from 'react'
 import uuid from 'react-uuid'
+
 import data from '../data/data.json'
 
 function Experience() {
-  const { experience: { experiences } } = data
+  const {
+    experience: { experiences },
+  } = data
   return (
     <section
       className="resume-section p-3 p-lg-5 d-flex justify-content-center"
